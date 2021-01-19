@@ -3,10 +3,10 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 PROMISED_DOWN = 150
-PROMISED_UP = 10
-CHROME_DRIVER_PATH = "F:/PythonProjects/chromedriver/chromedriver.exe"
-TWITTER_EMAIL = "Your email"
-TWITTER_PASSWORD = "your password"
+PROMISED_UP = 100
+CHROME_DRIVER_PATH = "C:/PythonProjects/100_python_projects/chromedriver/chromedriver.exe"
+TWITTER_EMAIL = "avilin1@yahoo.com"
+TWITTER_PASSWORD = "babylon1"
 
 
 class InternetSpeedTwitterBot:
@@ -30,8 +30,10 @@ class InternetSpeedTwitterBot:
     def tweet_at_provider(self):
         self.driver.get("https://twitter.com/login")
         time.sleep(2)
-        email = self.driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div[1]/form/div/div[1]/label/div/div[2]/div/input')
-        password = self.driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div[1]/form/div/div[2]/label/div/div[2]/div/input')
+        email = self.driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div[2]/form/div'
+                                                  '/div[1]/label/div/div[2]/div/input')
+        password = self.driver.find_element_by_xpath('//*[@id="react-root"]/div/div/div[2]/main/div/div/div[2]/form/'
+                                                     'div/div[2]/label/div/div[2]/div/input')
         email.send_keys(TWITTER_EMAIL)
         password.send_keys(TWITTER_PASSWORD)
         time.sleep(2)

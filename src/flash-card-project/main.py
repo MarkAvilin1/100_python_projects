@@ -12,7 +12,7 @@ to_learn = data.to_dict(orient="records")
 current_card = {}
 
 
-# ---------------------------- FLIP CARD ------------------------------- #
+# ----14------------------------ FLIP CARD ------------------------------- #
 def flip_card():
     canvas.itemconfig(card_background, image=back_img)
     canvas.itemconfig(card_title, text="Russian", fill="white")

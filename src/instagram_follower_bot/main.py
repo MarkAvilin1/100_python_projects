@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException
 import time
 
-CHROME_DRIVER_PATH = "F:/PythonProjects/chromedriver/chromedriver.exe"
+CHROME_DRIVER_PATH = "C:/PythonProjects/100_python_projects/chromedriver/chromedriver.exe"
 SIMILAR_ACCOUNT = "python.memes_"
 USERNAME = "your username"
 PASSWORD = "your password"

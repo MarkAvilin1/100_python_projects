@@ -6,7 +6,7 @@ from time import sleep
 FB_EMAIL = "avilin1@list.ru"
 FB_PASSWORD = "mdd889017"
 
-chrome_driver_path = r"F:/PythonProjects/chromedriver/chromedriver.exe"
+chrome_driver_path = "C:/PythonProjects/100_python_projects/chromedriver/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get("http://www.tinder.com")
