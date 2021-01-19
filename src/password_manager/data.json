@@ -1,0 +1,30 @@
+{
+    "Amazon": {
+        "email": "example@mail.com",
+        "password": "N3e3(qJM_kO6"
+    },
+    "facebook": {
+        "email": "error@mail.com",
+        "password": "jQ&9Eigw"
+    },
+    "amazon": {
+        "email": "example@mail.com",
+        "password": "o6r%9A$e"
+    },
+    "ebay": {
+        "email": "avilin@mail.com",
+        "password": "Fp3qbK!h"
+    },
+    "final": {
+        "email": "email@email.com",
+        "password": "wK8aN%7nc*"
+    },
+    "twitter": {
+        "email": "my_mail@mail.com",
+        "password": "2y4Nv_uxJ_"
+    },
+    "\u0412\u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0435": {
+        "email": "mail@mail.ru",
+        "password": "1234abcd"
+    }
+}

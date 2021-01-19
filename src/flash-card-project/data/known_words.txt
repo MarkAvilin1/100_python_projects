@@ -1,0 +1,26 @@
+Earth: Земля 
+come: прийти 
+speak: разговаривать 
+old: старый 
+should: должен 
+be: быть 
+here is: здесь 
+job: работа 
+in front of: перед 
+girls: девочки 
+girls: девочки 
+old: старый 
+long time: много времени 
+come: прийти 
+type: тип 
+Stop: Стоп 
+end: конец 
+be: быть 
+Stop: Стоп 
+after: после 
+to play: играть 
+old: старый 
+today: Cегодня 
+whose: чья 
+so much: так много 
+job: работа 
