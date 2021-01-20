@@ -5,8 +5,8 @@ import time
 PROMISED_DOWN = 150
 PROMISED_UP = 100
 CHROME_DRIVER_PATH = "C:/PythonProjects/100_python_projects/chromedriver/chromedriver.exe"
-TWITTER_EMAIL = "avilin1@yahoo.com"
-TWITTER_PASSWORD = "babylon1"
+TWITTER_EMAIL = "you login"
+TWITTER_PASSWORD = "your password"
 
 
 class InternetSpeedTwitterBot:
