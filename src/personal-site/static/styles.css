@@ -47,6 +47,15 @@ a:hover {
   color: #EAF6F6;
 }
 
+#img {
+  background-image: url(photo.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
