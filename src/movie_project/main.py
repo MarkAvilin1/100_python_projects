@@ -94,7 +94,7 @@ def rate_movie():
         movie.review = form.review.data
         db.session.commit()
         return redirect(url_for('home'))
-    return render_template("edit.html", movie=movie, form=form)
+    return render_template("book_detail.html", movie=movie, form=form)
 
 
 @app.route("/delete")
