@@ -4,9 +4,9 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 
 
-ACCOUNT_EMAIL = "avilin1@yahoo.com"
-ACCOUNT_PASSWORD = "123456"
-PHONE = "+79876543210"
+ACCOUNT_EMAIL = "User Email"
+ACCOUNT_PASSWORD = "Password"
+PHONE = "Phone Number"
 
 chrome_driver_path = "C:/PythonProjects/100_python_projects/chromedriver/chromedriver.exe"
 driver = webdriver.Chrome(chrome_driver_path)
